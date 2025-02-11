@@ -17,6 +17,13 @@ body {
   overflow: hidden; /* Prevents scrolling */
 }
 
+.leftPic,
+.rightPic {
+  height: 500px;
+  width: 100px;
+  background-color: gray;
+}
+
 .contentbody {
   width: 100%;
   height: 100%;

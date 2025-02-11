@@ -36,6 +36,13 @@ body {
   background-color: #fbab53;
 }
 
+.leftPic,
+.rightPic {
+  height: 500px;
+  width: 100px;
+  background-color: gray;
+}
+
 .MidHeaderMessage {
   font-size: 35px;
   font-weight: bold;
