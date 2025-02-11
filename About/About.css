@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.sign-in {
+    text-decoration: none;
+    background-color: #2ea3f2;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: none;
+}
+
+/* Welcome Section */
+.welcome {
+    width: 100%;
+    height: 732px;
+    background-color: #ffd166;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500px;
+	height: 40px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #ff9100;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-bar button i {
+    font-size: 25px;
+}
+
+/* Why Section */
+.why {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.why h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.why p {
+    font-size: 25px;
+    color: black;
+}
+
